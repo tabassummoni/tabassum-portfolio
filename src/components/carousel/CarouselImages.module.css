@@ -3,7 +3,27 @@
   height:734px;
 }
 
+.imageProjects{
+  width: 90% !important;
+  height: auto;
+}
+
+
+
 .h1{
+  margin:50px;
+  font-size: 2rem;
+  font-family: 'Permanent Marker', cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top:-270px;
+  left:10px;
+  color:rgba(255, 255,255, 0.8)
+}
+
+.h1Projects{
     margin:50px;
     font-size: 2rem;
     font-family: 'Permanent Marker', cursive;
@@ -77,6 +97,12 @@
     .image{
       height:600px;
     }
+    .imageProjects{
+      width: 50% !important;
+      height: 400px;
+      object-fit: scale-down;
+    }
+    
     .h1 a{
       width: 120px;
       font-size: 0.8rem;

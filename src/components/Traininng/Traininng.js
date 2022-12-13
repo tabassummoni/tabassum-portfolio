@@ -10,8 +10,10 @@ class Traininng extends Component {
     render() {
         return (
             <div className={classes.box} id="traininng">
-                <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2} animateOnce={true} initiallyVisible={true}>
-                    <span className={classes.head}>MY Training</span>
+                <span className={classes.head}>MY Training</span>
+                <h2 className='font-bold  text-fuchsia-900' style={{ marginLeft: 30 , color : '#808080' , letterSpacing:5 ,fontWeight:700,lineHeight :1.8, fontSize: 18}}>Where I learned Programming </h2>
+                 <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2} animateOnce={true} initiallyVisible={true}>
+                   
                     <section className={classes.container}>
                         <div className={classes.container_content}>
                             <div className={classes.row}>
@@ -19,13 +21,13 @@ class Traininng extends Component {
                                     <div className={classes.timeline_centered}>
                                         <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
                                             <article className={classes.timeline_entry}>
-                                                
+
                                             </article>
                                         </ScrollAnimation>
                                         <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
                                             <article className={classes.timeline_entry}>
                                                 <div className={`${classes.timeline_icon} ${classes.timeline_icon_2}`} >
-                                                <MdSchool />
+                                                    <MdSchool />
                                                 </div>
                                                 <div className={classes.label}>
                                                     <h2 >Web Development<span></span></h2>
@@ -46,9 +48,9 @@ class Traininng extends Component {
                                                 </div>
                                             </article>
                                         </ScrollAnimation>
-                                      
+                                        
 
-                                      
+
                                     </div>
                                 </div>
                             </div>

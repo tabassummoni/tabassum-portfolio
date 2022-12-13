@@ -30,13 +30,9 @@ class CarouselImages extends Component {
                             <a href="https://github.com/tabassummoni" rel="opener noreferrer" target="_blank">VIEW PROJECTS   <GoProject /></a>
                         </div>
                     </div>
-                    {/* <div className={classes.image_container}>
-                    <img className={classes.image} src={laptop1} alt="myImage"/>
-                    <div  className={classes.h1}> 
-                    </div>
-                </div> */}
+                    
                 </Carousel>
-                {/* </ScrollAnimation> */}
+
             </div>
         )
     }

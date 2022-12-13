@@ -8,14 +8,14 @@ class About extends Component {
         return (
             <div className={classes.box} id="about">
                 <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
-                    <span className={classes.head}>ABOUT ME</span>
+                    <span className={classes.head} > ABOUT ME</span>
                     <h2 className={classes.heading}>Who Am I?</h2>
                     <div className={classes.About}>
                         <p> My name is <b>Fouzia Tabassum</b> and Currently, I am studying for BSc in Computer Science @ Eastern University,Dhaka.
-Later I completed my Diploma in Computer Engineering from Feni Polytechnic Institute. 
+                            Later I completed my Diploma in Computer Engineering from Feni Polytechnic Institute.
 
-As I am fresher I have no professional experience but I have some great learning experience and projects. 
-I am comfortable working in JS stack(Node.js, React.js, Express.js, MongoDB, MySql, etc.).</p>
+                            As I am fresher I have no professional experience but I have some great learning experience and projects.
+                            I am comfortable working in JS stack(Node.js, React.js, Express.js, MongoDB, MySql, etc.).</p>
                         <p className={classes.br}>I love exploring new technologies and being a practitioner, I like to stay on top of latest trends. I try to leave every line of code I write more readable, accessible, and modular.
                         </p>
                     </div>
